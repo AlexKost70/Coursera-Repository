@@ -1,0 +1,67 @@
+.content-wrapper {
+    box-sizing: border-box;
+    margin: 10px 10px;
+    border: 2px solid #000000;
+    
+}
+
+.title-wrapper {
+    position: relative;
+    height: 50px;
+}
+
+.title-wrapper .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    font-size: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 25px 25px;
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-fuchsia {
+    background-color: fuchsia;
+}
+
+.text-wrapper {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+        width: 33.3%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-md-6 {
+        float: left;
+        width: 50%;
+    }
+
+    .col-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
