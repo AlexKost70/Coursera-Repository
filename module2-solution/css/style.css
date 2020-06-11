@@ -5,7 +5,7 @@
 .content-wrapper {
     box-sizing: border-box;
     margin: 10px 10px;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     background-color: gainsboro;
 }
 
@@ -23,8 +23,8 @@
     display: inline-block;
     box-sizing: border-box;
     padding: 25px 25px;
-    border-left: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 
 .bg-red {
